@@ -14,7 +14,7 @@ int main(int argc, char ** argv)
 	IplImage * SignalImage = 0;
 	IplImage * Circle = 0;
 	//IplImage * Rectangle[10];
-	int CalibCircleRadius = 50;
+	int CalibCircleRadius = 40;
 	// Load the image from file
 	SignalImage = cvLoadImage("turret.png", CV_LOAD_IMAGE_UNCHANGED);
 	if(!SignalImage){
@@ -23,15 +23,16 @@ int main(int argc, char ** argv)
 	}
 	
 	//Allocate the Circle Image
-	Circle = cvCreateImage(cvSize(SignalImage->width, SignalImage->height), SignalImage->depth, SignalImage->nChannels);
+	Circle = cvCloneImage(SignalImage);
+	//Circle = cvCreateImage(cvSize(SignalImage->width, SignalImage->height), SignalImage->depth, SignalImage->nChannels);
 	//Draw the Circle
-	CvPoint imagecenter = {SignalImage->width, SignalImage->height};
-	CvScalar circlecolor = CV_RGB(255,0,0);
+	CvPoint imagecenter = {SignalImage->width/2, SignalImage->height/2};
+	CvScalar circlecolor = CV_RGB(255,155,122);
 	cvCircle(Circle,imagecenter, CalibCircleRadius, circlecolor, 8, 0); 
 	//Save the Signal Image with Circle
 	if(!cvSaveImage("SignalCircle.jpg", Circle)){
 		cout << "Could not save Circle" << endl;
-	}
+	} else cout << "Circle Saved Successfully" << endl;
 		
 		//cvSetImageROI(pImgToChange, handRect);
 		//subImg = cvCreateImage(cvGetSize(pImgToChange), pImgToChange->depth, pImgToChange->nChannels);
