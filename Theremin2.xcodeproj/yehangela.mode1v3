@@ -269,13 +269,18 @@
 								<string>01BA04E01770B6F7008B278D</string>
 								<string>08FB7795FE84155DC02AAC07</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>018434EF1770BB9400057F7A</string>
+								<string>018434F01770BB9400057F7A</string>
+								<string>018434F11770BB9400057F7A</string>
+								<string>018434F21770BB9400057F7A</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -314,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>turret</string>
+								<string>SimpleImageTestIplImage.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,16 +327,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>turret</string>
+										<string>SimpleImageTestIplImage.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>018434AF1770BA0500057F7A</string>
+										<string>0184350A1770BBDD00057F7A</string>
 										<key>history</key>
 										<array>
 											<string>01BA04801770B2A9008B278D</string>
-											<string>01BA04E31770B737008B278D</string>
-											<string>01BA04E81770B75C008B278D</string>
+											<string>018434F31770BB9400057F7A</string>
+											<string>018434F41770BB9400057F7A</string>
+											<string>018434F51770BB9400057F7A</string>
+											<string>018435091770BBDD00057F7A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -529,13 +536,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>0184350B1770BBDD00057F7A</string>
 		<string>018434BA1770BA0500057F7A</string>
-		<string>018434BB1770BA0500057F7A</string>
 		<string>018434BC1770BA0500057F7A</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>01BA04861770B2A9008B278D</string>
 		<string>/Users/yehangela/Documents/Workspace/Theremin/Theremin2.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1280 719 0 0 1280 778 </string>
@@ -559,7 +566,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>SimpleImageTestIplImage.cpp</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -576,6 +583,8 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -917,7 +926,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
