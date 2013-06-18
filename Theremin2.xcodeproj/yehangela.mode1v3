@@ -300,7 +300,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>8 59 1280 719 0 0 1280 778 </string>
+						<string>-31 59 1280 719 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -330,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>0184352D1770C41E00057F7A</string>
+										<string>018435311770C7E200057F7A</string>
 										<key>history</key>
 										<array>
 											<string>01BA04801770B2A9008B278D</string>
@@ -351,7 +351,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1072, 486}}</string>
 								<key>RubberWindowFrame</key>
-								<string>8 59 1280 719 0 0 1280 778 </string>
+								<string>-31 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -371,7 +371,7 @@
 								<key>Frame</key>
 								<string>{{0, 491}, {1072, 187}}</string>
 								<key>RubberWindowFrame</key>
-								<string>8 59 1280 719 0 0 1280 778 </string>
+								<string>-31 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -543,7 +543,7 @@
 		<string>/Users/yehangela/Documents/Workspace/Theremin/Theremin2.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>8 59 1280 719 0 0 1280 778 </string>
+	<string>-31 59 1280 719 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
