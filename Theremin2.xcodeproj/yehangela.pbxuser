@@ -6,9 +6,9 @@
 	};
 	018434BF1770BA9100057F7A /* SimpleImageTestIplImage.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 949}}";
-			sepNavSelRange = "{37, 0}";
-			sepNavVisRange = "{0, 937}";
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 871}}";
+			sepNavSelRange = "{161, 0}";
+			sepNavVisRange = "{886, 1339}";
 			sepNavWindowFrame = "{{15, 116}, {845, 657}}";
 		};
 	};
@@ -34,6 +34,21 @@
 		autoAttachOnCrash = 1;
 		breakpointsEnabled = 0;
 		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
 		};
 		customDataFormattersEnabled = 1;
 		dataTipCustomDataFormattersEnabled = 1;
@@ -49,9 +64,12 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = SimpleImageTestIplImage;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
+		startupPath = "<<ProductDirectory>>";
 	};
 	018434EA1770BB5D00057F7A /* XCBuildMessageTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -181,6 +199,36 @@
 		rType = 0;
 		vrLen = 937;
 		vrLoc = 0;
+	};
+	018435121770BC6500057F7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 018434BF1770BA9100057F7A /* SimpleImageTestIplImage.cpp */;
+		name = "SimpleImageTestIplImage.cpp: 4";
+		rLen = 0;
+		rLoc = 37;
+		rType = 0;
+		vrLen = 495;
+		vrLoc = 0;
+	};
+	018435131770BC6F00057F7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 018434BF1770BA9100057F7A /* SimpleImageTestIplImage.cpp */;
+		name = "SimpleImageTestIplImage.cpp: 11";
+		rLen = 0;
+		rLoc = 161;
+		rType = 0;
+		vrLen = 1339;
+		vrLoc = 886;
+	};
+	018435161770BCBC00057F7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 018434BF1770BA9100057F7A /* SimpleImageTestIplImage.cpp */;
+		name = "SimpleImageTestIplImage.cpp: 11";
+		rLen = 0;
+		rLoc = 161;
+		rType = 0;
+		vrLen = 1339;
+		vrLoc = 886;
 	};
 	01BA04781770B278008B278D /* Theremin */ = {
 		isa = PBXExecutable;
@@ -551,6 +599,9 @@
 			018435081770BBD600057F7A /* PBXTextBookmark */ = 018435081770BBD600057F7A /* PBXTextBookmark */;
 			018435091770BBDD00057F7A /* XCBuildMessageTextBookmark */ = 018435091770BBDD00057F7A /* XCBuildMessageTextBookmark */;
 			0184350A1770BBDD00057F7A /* PBXTextBookmark */ = 0184350A1770BBDD00057F7A /* PBXTextBookmark */;
+			018435121770BC6500057F7A /* PBXTextBookmark */ = 018435121770BC6500057F7A /* PBXTextBookmark */;
+			018435131770BC6F00057F7A /* PBXTextBookmark */ = 018435131770BC6F00057F7A /* PBXTextBookmark */;
+			018435161770BCBC00057F7A /* PBXTextBookmark */ = 018435161770BCBC00057F7A /* PBXTextBookmark */;
 			01BA04801770B2A9008B278D = 01BA04801770B2A9008B278D /* PBXTextBookmark */;
 			01BA04811770B2A9008B278D = 01BA04811770B2A9008B278D /* PBXBookmark */;
 			01BA04821770B2A9008B278D = 01BA04821770B2A9008B278D /* PBXTextBookmark */;

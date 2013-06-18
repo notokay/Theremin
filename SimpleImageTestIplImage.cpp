@@ -16,7 +16,7 @@ int main(int argc, char ** argv)
 	//IplImage * Rectangle[10];
 	int CalibCircleRadius = 50;
 	// Load the image from file
-	SignalImage = cvLoadImage("SignalImage.jpg", CV_LOAD_IMAGE_UNCHANGED);
+	SignalImage = cvLoadImage("turret.png", CV_LOAD_IMAGE_UNCHANGED);
 	if(!SignalImage){
 		cout << "failed to load Signal Image" << endl;
 		return -1;
