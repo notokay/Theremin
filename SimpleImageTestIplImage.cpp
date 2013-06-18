@@ -46,20 +46,16 @@ int main(int argc, char ** argv)
 	} else cout << "Rectangle Saved Successfully" << endl;
 	
 	//Set the Region of Interest using Rectangle
-	
-	//cvSetImageROI(pImgToChange, handRect);
-		//subImg = cvCreateImage(cvGetSize(pImgToChange), pImgToChange->depth, pImgToChange->nChannels);
-		//cvCopy(img, subImg, NULL);
-		//cvResetImageROI(pImgToChange);
-		
-		//identifies region of interest handRect and stores it in subImg
-		//CvRect handRect = {((pImgToChange->width)/2) - CalibCircleRadius, ((pImgToChange->height)/2) - CalibCircleRadius, 2*CalibCircleRadius, 2*CalibCircleRadius)
-		//	cvSetImageROI(pImgToChange, handRect);
-		//	subImg = cvCreateImage(cvGetSize(pImgToChange), pImgToChange->depth, pImgToChange->nChannels);
-		//	cvCopy(img, subImg, NULL);
-		//	cvResetImageROI(pImgToChange);
-		
-		//obtainHistogram();
+	IplImage *SignalImageCopy = cvCloneImage(SignalImage);
+	IplImage *ROICropped = cvCreateImage(cvSize(CalibCircleRadius*2, CalibCircleRadius*2), SignalImage->depth, SignalImage->nChannels);
+	cvSetImageROI(SignalImageCopy, cvRect(SignalImage->width/2 - CalibCircleRadius,SignalImage->height/2 - CalibCircleRadius,CalibCircleRadius*2, CalibCircleRadius*2));
+	cvCopy(SignalImageCopy,ROICropped);
+	//Save the Cropped ROI Image
+	if(!cvSaveImage("ROICropped.jpg", ROICropped)){
+		cout << "Could not save Rectangle" << endl;
+	} else cout << "ROICropped Saved Successfully" << endl;
+
+	//obtainHistogram();
 		//handRect = detectHand(pVideoFrame);
 		
 		//show the display image
@@ -74,7 +70,10 @@ int main(int argc, char ** argv)
 		// initiate tracking... use template matching or histogram comparison to search around a given area for the shape found in calibration signal
 		
 		// Terminate video capture and free capture resources
-		cvReleaseImage(&SignalImage);
-		cvReleaseImage(&Circle);
+	   cvReleaseImage(&SignalImage);
+	   cvReleaseImage(&Circle);
+	   cvReleaseImage(&Rectangle);
+	   cvReleaseImage(&SignalImageCopy);
+	   cvReleaseImage(&ROICropped);
 		return 0;
 	}
